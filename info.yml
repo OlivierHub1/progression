@@ -1,0 +1,79 @@
+type: prog
+uuid: 5af3d50d-3966-470b-aa7f-03bbeebc04db
+
+titre: Instancier un objet
+
+énoncé:
+  - titre : "Mise en contexte"
+    texte : |
+      En Kotlin, comme en Java, les objets sont instanciés en appellant leur constructeur, qui porte le même nom que la classe. Par contre, à la différence de Java, l'opérateur `new` n'est pas nécessaire.
+    
+      Pour instancier un objet de type `Personne`, utilisez son constructeur :
+    
+        ```
+        var client = Personne()
+        ```    
+
+  - titre: "À faire"
+    texte: |
+      Dans cet exercice, le programme recevra un certain nombre de noms d'animaux. Pour chacun, instanciez un objet du bon type. Les classe animales possibles sont :
+        
+        - Perroquet
+        - Souris
+        - Guépard
+        - Poule
+        - Zèbre
+    
+  - titre: "Entrées"
+    texte : |
+
+      Le programme reçoit d'abord un nombre représentant le nombre d'animaux à instancier, puis, un par ligne, le nom en minuscules de l'animal à instancier.
+
+      - Exemple :
+      
+      ```
+      4
+      zébre
+      souris
+      souris
+      perroquet
+      ```
+
+  - titre: "Sorties"
+    texte : |
+
+      Votre programme doit faire afficher la liste de tous les animaux, en ordre alphabétique de nom.
+
+      - Exemple :
+        
+      ```    
+      Perroquet
+      Souris
+      Souris
+      Zébre
+      ```
+
+  - titre: "Exemple"
+    texte : |
+      
+      - Entrée :
+        
+      ```
+      3
+      perroquet
+      zèble
+      poule
+      ```
+
+      - Sortie :
+        
+      ```
+      Perroquet
+      Poule
+      Zèbre
+      ```
+      
+ébauches :
+  kotlin : !include exec.kt
+
+tests: !include tests.yml
