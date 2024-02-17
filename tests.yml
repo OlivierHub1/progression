@@ -1,0 +1,111 @@
+- nom : Exemple
+  entrée : |
+    3
+    zèbre
+    poule
+    perroquet
+  sortie : |
+    Perroquet
+    Poule
+    Zèbre
+- nom : Beaucoup d'animaux
+  entrée : |
+    29
+    poule
+    poule
+    zèbre
+    zèbre
+    poule
+    zèbre
+    guépard
+    poule
+    zèbre
+    poule
+    zèbre
+    perroquet
+    zèbre
+    guépard
+    guépard
+    zèbre
+    zèbre
+    zèbre
+    zèbre
+    zèbre
+    souris
+    zèbre
+    souris
+    guépard
+    souris
+    zèbre
+    guépard
+    poule
+    guépard
+  sortie : |
+    Guépard
+    Guépard
+    Guépard
+    Guépard
+    Guépard
+    Guépard
+    Perroquet
+    Poule
+    Poule
+    Poule
+    Poule
+    Poule
+    Poule
+    Souris
+    Souris
+    Souris
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+- nom : Pas d'animaux
+  entrée : |
+    0
+  sortie : ""
+- nom : n animaux
+  entrée : |
+    15
+    zèbre
+    perroquet
+    zèbre
+    guépard
+    guépard
+    zèbre
+    zèbre
+    zèbre
+    zèbre
+    zèbre
+    souris
+    zèbre
+    souris
+    guépard
+    souris
+  sortie : |
+    Guépard
+    Guépard
+    Guépard
+    Perroquet
+    Souris
+    Souris
+    Souris
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+    Zèbre
+  caché : true
