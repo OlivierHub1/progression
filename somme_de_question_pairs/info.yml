@@ -2,7 +2,7 @@ type: prog
 
 niveau: base
 
-titre: Bonjour décuplé
+titre: Some des nombres pairs
 
 
 objectif: Calcul de la somme des nombres pairs jusqu'à un nombre donné
@@ -21,8 +21,8 @@ objectif: Calcul de la somme des nombres pairs jusqu'à un nombre donné
 
 
 rétroactions:
-    positive: Génial !
-    négative: C'est une boucle à 10 itérations, donc le for aura un compteur variant de 0 à 10 (10 non inclus)…
+    positive: Bravo !
+    négative: Il faut que tu calcul seulement les nombres pairs
 
 tests: !include tests.yml
 
