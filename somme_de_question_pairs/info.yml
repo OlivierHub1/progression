@@ -1,0 +1,31 @@
+type: prog
+
+niveau: base
+
+titre: Bonjour décuplé
+
+
+objectif: Calcul de la somme des nombres pairs jusqu'à un nombre donné
+
+énoncé: |
+  ## Consignes :
+
+    - Utilisez une boucle for pour parcourir les nombres de 1 jusqu'au nombre donné inclus.
+    - Utilisez une condition pour vérifier si un nombre est pair.
+    - Accumulez la somme des nombres pairs dans une variable.
+    - Affichez la somme à la fin du programme.
+
+
+ébauches:
+    python: !include exec.py
+
+
+rétroactions:
+    positive: Génial !
+    négative: C'est une boucle à 10 itérations, donc le for aura un compteur variant de 0 à 10 (10 non inclus)…
+
+tests: !include tests.yml
+
+auteur: Olivier Registre Sainvilus
+licence: 2024 CC-BY-SA
+uuid: 490d19df-7123-47aa-b03a-a5c71a3fx1bc

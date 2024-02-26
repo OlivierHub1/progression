@@ -1,0 +1,12 @@
+- nom: Entrer 5 qui retourne 6
+  entrée: 5
+  sortie: |
+    La somme des nombres pairs jusqu'à 5 est : 6
+- nom: Entrer 50 qui retourne 650
+  entrée: 50
+  sortie: |
+    La somme des nombres pairs jusqu'à 50 est : 650
+- nom: Entrer 10 qui retourne 30
+  entrée: 10
+  sortie: |
+    La somme des nombres pairs jusqu'à 10 est : 30
